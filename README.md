@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Generic badge](https://img.shields.io/badge/Open_Source-YES-blue.svg)](https://github.com/mashanz/)
 
-# OPEN Aplikasi Pendaftaran Peserta Didik Baru (openppdb)
+# OPEN Aplikasi Pendaftaran Peserta Didik Baru (OpenPPDB)
 
 Aplikasi Pendaftaran Peserta Didik Baru (Open Source) Berbasis Web menggunakan frameworks Django.
 
@@ -31,7 +31,9 @@ python ./manage.py runserver
 ```
 
 
-# KONTAK
+# Kontak
+Apabila ada yang ingin ditanyakan atau butuh bantuan/jasa instalasi. Bisa menghubungi maintainer di kontak berikut.
+
 | Info | Links |
 | :- | :- |
 | Author |: [mashanz](https://github.com/mashanz) |
