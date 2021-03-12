@@ -3,11 +3,13 @@ from django.shortcuts import render
 from django.template import loader
 from django.http import HttpResponse
 from django import template
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
 class OppdbBackend:
 
+    @csrf_exempt
     def index(request):
         data = {
                 "code": 200,
@@ -17,6 +19,7 @@ class OppdbBackend:
         dump = json.dumps(data)
         return HttpResponse(dump, content_type='application/json')
 
+    @csrf_exempt
     def pages(request):
         context = {}
         try:
@@ -27,7 +30,7 @@ class OppdbBackend:
         except template.TemplateDoesNotExist:
             data = {
                 "code": 404,
-                "message": "Not Found",
+                "message": "Page Not Found",
                 "data": None
             }
             dump = json.dumps(data)
@@ -35,8 +38,27 @@ class OppdbBackend:
         except:
             data = {
                 "code": 500,
-                "message": "Server Errors",
+                "message": "Internal Server Errors",
                 "data": None
             }
             dump = json.dumps(data)
             return HttpResponse(dump, content_type='application/json')
+
+    @csrf_exempt
+    def login(request):
+        if request.method == "POST":
+            data = {
+                "code": 200,
+                "message": "OK",
+                "data": None
+            }
+            
+        else:
+            data = {
+                "code": 403,
+                "message": "Forbidden Access",
+                "data": None
+            }
+        
+        dump = json.dumps(data)
+        return HttpResponse(dump, content_type='application/json')
