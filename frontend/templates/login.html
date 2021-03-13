@@ -8,12 +8,13 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="/static/assets/index2.html" class="h1">Open<b>PPDB</b></a>
+      <a href="/" class="h1">Open<b>PPDB</b></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Masuk untuk memulai sesi</p>
 
-      <form action="/static/assets/index3.html" method="post">
+      <form action="/" method="post">
+        {% csrf_token %}
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
