@@ -28,7 +28,7 @@ SECRET_KEY = 'nmq2msofu8f6u==%=+3#zserrgs=^7ikt*r^f!8(ylkxr*=eq^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -125,6 +125,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'frontend/static'),
+)
 
 # ALLOW CORS ORIGIN
 CORS_ALLOW_ALL_ORIGINS = True # CORS to bypass js access
