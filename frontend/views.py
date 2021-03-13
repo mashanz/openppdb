@@ -31,3 +31,18 @@ class OpenPpdbFrontend:
         context = {}
         html_template = loader.get_template( 'login.html' )
         return HttpResponse(html_template.render(context, request))
+
+    def register(request):
+        context = {}
+        html_template = loader.get_template( 'register.html' )
+        return HttpResponse(html_template.render(context, request))
+
+    def forgot_password(request):
+        context = {}
+        html_template = loader.get_template( 'forgot-password.html' )
+        return HttpResponse(html_template.render(context, request))
+
+    def recovery_password(request):
+        context = {}
+        html_template = loader.get_template( 'recovery-password.html' )
+        return HttpResponse(html_template.render(context, request))
