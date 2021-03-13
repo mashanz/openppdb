@@ -8,9 +8,14 @@ from django import template
 class OpenPpdbFrontend:
 
     def index(request):
-        context = {}
+        context = {"side_dashboard": "active"}
         context['segment'] = 'index'
         html_template = loader.get_template( 'index.html' )
+        return HttpResponse(html_template.render(context, request))
+
+    def formulir(request):
+        context = {"side_formulir": "active"}
+        html_template = loader.get_template( 'formulir.html' )
         return HttpResponse(html_template.render(context, request))
 
     def pages(request):
