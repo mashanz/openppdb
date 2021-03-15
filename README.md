@@ -30,10 +30,25 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 9. Halaman Pengumuman/Dashboard `(OnProgress)`
 
 ### <b>Contoh Tampilan</b>
-| - | - |
-| :-: | :-: |
-| ![login](./dokumentasi/login.png) | ![register](./dokumentasi/register.png) |
-| ![email](./dokumentasi/email.png) | ![menu](./dokumentasi/menu.png) |
+
+<table>
+    <tr>
+        <td>
+            <img src="./dokumentasi/login.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+        </td>
+        <td>
+            <img src="./dokumentasi/register.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="./dokumentasi/email.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+        </td>
+        <td>
+            <img src="./dokumentasi/menu.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+        </td>
+    </tr>
+</table>
 
 # Instalasi, Penggunaan dan Pengembangan
 Untuk petunjuk Instalasi, penggunaan, serta pengembangan dapat dilihat di halaman
