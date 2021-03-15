@@ -32,8 +32,8 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 ### <b>Contoh Tampilan</b>
 | | |
 | :-: | :-: |
-| ![login](_dokumentasi/login.png) | ![register](_dokumentasi/register.png) |
-| ![email](_dokumentasi/email.png) | ![menu](_dokumentasi/menu.png) |
+| ![login](./_dokumentasi/login.png) | ![register](./_dokumentasi/register.png) |
+| ![email](./_dokumentasi/email.png) | ![menu](./_dokumentasi/menu.png) |
 
 # Instalasi, Penggunaan dan Pengembangan
 Untuk petunjuk Instalasi, penggunaan, serta pengembangan dapat dilihat di halaman
