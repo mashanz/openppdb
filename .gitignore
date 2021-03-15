@@ -3,3 +3,5 @@ __pycache__/
 .env
 db.sqlite3
 ngrok*
+build/*
+dist/*
