@@ -4,9 +4,9 @@
 [![Generic badge](https://img.shields.io/badge/Open_Source-YES-blue.svg)](https://github.com/mashanz/)
 [![Generic badge](https://img.shields.io/badge/Status_Rilis-DALAM_PENGEMBANGAN-red.svg)](https://github.com/mashanz/openppdb/releases)
 
-# Open Aplikasi Pendaftaran Peserta Didik Baru (<b>OpenPPDB</b>)
+# Aplikasi Pendaftaran Peserta Didik Baru (<b>OpenPPDB</b>)
 
-Aplikasi `Pendaftaran Peserta Didik Baru` sumber terbuka (<i>Open Source</i>) Berbasis PWA (<i>Progresive Web Application</i>) tersedia <b>`gratis`</b> untuk mempermudah proses <b>PPDB <i>online</i></b>. Unduh gratis rilis aplikasi terbaru [<b>`di sini`</b>](https://github.com/mashanz/openppdb/releases).
+Aplikasi <span style="color:blue;font-weight:bold;">`Pendaftaran Peserta Didik Baru`</span> sumber terbuka (<i>Open Source</i>) Berbasis PWA (<i>Progresive Web Application</i>) tersedia <b>`gratis`</b> untuk mempermudah proses <b>PPDB <i>online</i></b>. Unduh gratis rilis aplikasi terbaru [<b>`di sini`</b>](https://github.com/mashanz/openppdb/releases).
 
 > <b>Kelebihan</b>:
 > 1. Aplikasi tersedia <b>`gratis`</b> (Open Source).
