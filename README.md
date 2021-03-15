@@ -29,7 +29,7 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 8. Panel Admin/Dashboard `(OnProgress)`
 9. Halaman Pengumuman/Dashboard `(OnProgress)`
 
-### <b>Tampilan Aplikasi pada Mobile Phone</b>
+### <b>Contoh Tampilan Aplikasi pada Mobile Phone</b>
 
 <table style="text-align:center;">
     <tr>
