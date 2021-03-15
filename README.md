@@ -7,28 +7,15 @@
 
 Aplikasi Pendaftaran Peserta Didik Baru (Open Source) Berbasis Web menggunakan frameworks Django.
 
-# Instalasi
+| | |
+| :-: | :-: |
+| ![login](_dokumentasi/login.png) | ![register](_dokumentasi/register.png) |
+| ![email](_dokumentasi/email.png) | ![menu](_dokumentasi/menu.png) |
 
-## 1. Clone Repository
-```sh
-git clone https://github.com/mashanz/openppdb.git
-```
 
-## 2. Install dependencies
-```sh
-python -m pip install -r requirements.txt
-```
-
-## 3. Persiapan Database
-```
-python ./manage.py makemigrations
-python ./manage.py migrate
-```
-
-## 4. Menjalankan Server
-```
-python ./manage.py runserver
-```
+# Dokumentasi
+Untuk petunjuk penggunaan serta instalasi bisa di lihat di halaman
+[Dokumentasi](https://github.com/mashanz/openppdb/wiki)
 
 
 # Kontak
