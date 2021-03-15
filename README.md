@@ -53,7 +53,7 @@ Untuk petunjuk Instalasi, penggunaan, serta pengembangan dapat dilihat di halama
 
 | Spesifikasi | Spesifikasi Minimal |
 | :- | :- |
-| OS | Windows, Linux, MacOS |
+| OS | Windows 7, Ubuntu 18.04, MacOS 10.11 |
 | CPU | 0.6 GHz |
 | RAM | 512 MB |
 | STORAGE | 2 GB |
