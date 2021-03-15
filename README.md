@@ -39,8 +39,6 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
         <td>
             <img src="./dokumentasi/register.png" alt="Aplikasi PPDB Gratis" width="100%"/>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="./dokumentasi/email.png" alt="Aplikasi PPDB Gratis" width="100%"/>
         </td>
