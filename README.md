@@ -29,21 +29,21 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 8. Panel Admin/Dashboard `(OnProgress)`
 9. Halaman Pengumuman/Dashboard `(OnProgress)`
 
-### <b>Contoh Tampilan</b>
+### <b>Tampilan Aplikasi pada Mobile Phone</b>
 
-<table>
+<table style="text-align:center;">
     <tr>
         <td>
-            <img src="./dokumentasi/login.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+            <img src="./dokumentasi/login.png" alt="Aplikasi PPDB Gratis" width="100%"/><br><b>Login</b>
         </td>
         <td>
-            <img src="./dokumentasi/register.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+            <img src="./dokumentasi/register.png" alt="Aplikasi PPDB Gratis" width="100%"/><br><b>Register</b>
         </td>
         <td>
-            <img src="./dokumentasi/email.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+            <img src="./dokumentasi/email.png" alt="Aplikasi PPDB Gratis" width="100%"/><br><b>Forgot Password</b>
         </td>
         <td>
-            <img src="./dokumentasi/menu.png" alt="Aplikasi PPDB Gratis" width="100%"/>
+            <img src="./dokumentasi/menu.png" alt="Aplikasi PPDB Gratis" width="100%"/><br><b>Menu</b>
         </td>
     </tr>
 </table>
