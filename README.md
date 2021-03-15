@@ -30,7 +30,7 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 9. Halaman Pengumuman/Dashboard `(OnProgress)`
 
 ### <b>Contoh Tampilan</b>
-| | |
+| - | - |
 | :-: | :-: |
 | ![login](./dokumentasi/login.png) | ![register](./dokumentasi/register.png) |
 | ![email](./dokumentasi/email.png) | ![menu](./dokumentasi/menu.png) |
