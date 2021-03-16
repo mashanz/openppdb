@@ -7,12 +7,13 @@
 <div class="register-box">
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="/static/assets/index2.html" class="h1">Open<b>PPDB</b></a>
+      <a href="/" class="h1">Open<b>PPDB</b></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Registrasi member baru</p>
 
-      <form action="/static/assets/index.html" method="post">
+      <form action="/" method="post">
+        {% csrf_token %}
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Nama Lengkap">
           <div class="input-group-append">
