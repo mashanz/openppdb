@@ -64,7 +64,7 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
 
 # Pengembangan
 Untuk petunjuk pengembangan dapat dilihat di halaman
-[Dokumentasi](https://github.com/mashanz/openppdb/wiki)
+[Dokumentasi](https://github.com/mashanz/openppdb/wiki/Pengembangan-Aplikasi)
 
 # Spesifikasi Teknis
 | Frameworks | Version |
