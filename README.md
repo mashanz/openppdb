@@ -67,12 +67,48 @@ Untuk petunjuk pengembangan dapat dilihat di halaman
 [Dokumentasi](https://github.com/mashanz/openppdb/wiki/Pengembangan-Aplikasi)
 
 # Spesifikasi Teknis
-| Frameworks | Version |
-| :-: | :-: |
-| Python | 3.7.10 |
-| Django | 2.2.10 |
-| AdminLTE | 3.1 |
-| Bootsrap | 4 |
+<table style="text-align:center;">
+    <tr>
+        <th>
+            Framework
+        </th>
+        <th>
+            Versi
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Python
+        </td>
+        <td>
+            3.7.10
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Django
+        </td>
+        <td>
+            2.2.10
+        </td>
+    </tr>
+    <tr>
+        <td>
+            AdminLTE
+        </td>
+        <td>
+            3.1.0
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bootstrap
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+</table>
 
 # Bug Report
 Apabila ditemukan bug pada code aplikasi ini, anda dapat submit laporan bug tersebut [di sini](https://github.com/mashanz/openppdb/issues). 
