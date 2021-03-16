@@ -111,14 +111,7 @@ Untuk petunjuk pengembangan dapat dilihat di halaman
 </table>
 
 # Arsitektur
-<table style="text-align:center;">
-    <tr>
-        <td>
-            <img src="./dokumentasi/arsitektur.png" alt="Aplikasi PPDB Gratis" width="100%"/>
-        </td>
-    </tr>
-</table>
-
+![Arsitektur OpenPPDB](./dokumentasi/arsitektur.png)
 
 # Bug Report
 Apabila ditemukan bug pada code aplikasi ini, anda dapat submit laporan bug tersebut [di sini](https://github.com/mashanz/openppdb/issues). 
