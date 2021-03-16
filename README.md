@@ -111,7 +111,7 @@ Untuk petunjuk pengembangan dapat dilihat di halaman
 </table>
 
 # Arsitektur
-![Arsitektur OpenPPDB](./dokumentasi/arsitektur.png)
+![Arsitektur OpenPPDB](./dokumentasi/arsitektur.svg)
 
 # Bug Report
 Apabila ditemukan bug pada code aplikasi ini, anda dapat submit laporan bug tersebut [di sini](https://github.com/mashanz/openppdb/issues). 
