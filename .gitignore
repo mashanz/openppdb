@@ -1,7 +1,7 @@
-__pycache__/
-.vscode/
+__pycache__
+.vscode
 .env
 db.sqlite3
-ngrok*
-build/*
-dist/*
+build
+dist
+venv
