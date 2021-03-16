@@ -1,8 +1,9 @@
-[![Generic badge](https://img.shields.io/badge/Maintainer-mashanz-blue.svg)](https://github.com/mashanz/)
-[![Generic badge](https://img.shields.io/badge/Copyright-2021-brightgreen.svg)](https://github.com/mashanz/)
+[![Release](https://img.shields.io/github/v/release/mashanz/openppdb?include_prereleases)](https://github.com/mashanz/openppdb/releases)
+[![Maintainer](https://img.shields.io/badge/Maintainer-mashanz-blue.svg)](https://github.com/mashanz/)
+[![Copyright](https://img.shields.io/badge/Copyright-2021-brightgreen.svg)](https://github.com/mashanz/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Generic badge](https://img.shields.io/badge/Open_Source-YES-blue.svg)](https://github.com/mashanz/)
-[![Generic badge](https://img.shields.io/badge/Status_Rilis-DALAM_PENGEMBANGAN-red.svg)](https://github.com/mashanz/openppdb/releases)
+[![Open Source](https://img.shields.io/badge/Open_Source-YES-blue.svg)](https://github.com/mashanz/)
+[![Status](https://img.shields.io/badge/Status_Rilis-DALAM_PENGEMBANGAN-red.svg)](https://github.com/mashanz/openppdb/releases)
 
 # Aplikasi Pendaftaran Peserta Didik Baru (<b>OpenPPDB</b>)
 Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber terbuka (<i>Open Source</i>) Berbasis PWA (<i>Progresive Web Application</i>) tersedia <b>`gratis`</b> untuk mempermudah proses <b>PPDB <i>online</i></b>. Unduh gratis rilis aplikasi terbaru [<b>`di sini`</b>](https://github.com/mashanz/openppdb/releases).
@@ -71,6 +72,7 @@ Untuk petunjuk pengembangan dapat dilihat di halaman
 | Python | 3.7.10 |
 | Django | 2.2.10 |
 | AdminLTE | 3.1 |
+| Bootsrap | 4 |
 
 # Bug Report
 Apabila ditemukan bug pada code aplikasi ini, anda dapat submit laporan bug tersebut [di sini](https://github.com/mashanz/openppdb/issues). 
