@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.template import loader
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseBadRequest
 from django import template
 
 # Create your views here.
@@ -27,10 +27,10 @@ class OpenPpdbFrontend:
             return HttpResponse(html_template.render(context, request))
         except template.TemplateDoesNotExist:
             html_template = loader.get_template( '404.html' )
-            return HttpResponse(html_template.render(context, request))
+            return HttpResponseBadRequest(html_template.render(context, request), status=404)
         except:
             html_template = loader.get_template( '500.html' )
-            return HttpResponse(html_template.render(context, request))
+            return HttpResponseBadRequest(html_template.render(context, request), status=500)
 
     def login(request):
         context = {}
