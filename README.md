@@ -47,23 +47,30 @@ Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber
     </tr>
 </table>
 
-# Instalasi, Penggunaan dan Pengembangan
-Untuk petunjuk Instalasi, penggunaan, serta pengembangan dapat dilihat di halaman
-[Dokumentasi](https://github.com/mashanz/openppdb/wiki)
+# Menjalankan Apilasi OpenPPDB
+1. Download `OpenPPDB_Windows_x64.tar.gz` untuk Windows dan `OpenPPDB-Linux_x64.tar.gz` untuk Linux
+2. Extract `OpenPPDB_Windows_x64.tar.gz` untuk Windows dan `OpenPPDB-Linux_x64.tar.gz` untuk Linux
+3. Masuk ke dalam Folder `OpenPPDB`
+4. Double click `OpenPPDB.bat` untuk Windows dan `OpenPPDB.sh` untuk Linux
+5. Buka browser http://localhost/
 
 | Spesifikasi | Spesifikasi Minimal |
 | :- | :- |
 | OS | Windows 7, Ubuntu 18.04, MacOS 10.11 |
-| CPU | 0.6 GHz |
+| CPU | 0.6 GHz x64|
 | RAM | 512 MB |
 | STORAGE | 2 GB |
 
-# Menjalankan Aplikasi di WINDOWS
-1. Download [`OpenPPDB.zip`](https://github.com/mashanz/openppdb/releases)
-2. Extract `OpenPPDB.zip`
-3. Masuk ke dalam Folder `OpenPPDB`
-4. Double click `OpenPPDB.bat` (bukan `OpenPPDB.exe`)
-5. Buka browser http://localhost/
+# Pengembangan
+Untuk petunjuk pengembangan dapat dilihat di halaman
+[Dokumentasi](https://github.com/mashanz/openppdb/wiki)
+
+# Spesifikasi Teknis
+| Frameworks | Version |
+| :-: | :-: |
+| Python | 3.7.10 |
+| Django | 2.2.10 |
+| AdminLTE | 3.1 |
 
 # Bug Report
 Apabila ditemukan bug pada code aplikasi ini, anda dapat submit laporan bug tersebut [di sini](https://github.com/mashanz/openppdb/issues). 
