@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'openppdb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'databasefiles/db.sqlite3'),
     }
 }
 
@@ -128,6 +128,9 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 MEDIA_URL = '/media/'
+
+DATABASE_ROOT = os.path.join(BASE_DIR, 'databasefiles')
+DATABASE_URL = '/database/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
