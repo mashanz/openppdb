@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 from decouple import config
 from unipath import Path
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 SERVER_DIR = Path(__file__).parent
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders', # CORS to bypass js access
+    'whitenoise.runserver_nostatic', # nostatic
     'backend',
     'frontend',
 ]
@@ -54,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware', # CORS to bypass js access
+    'whitenoise.middleware.WhiteNoiseMiddleware', # no static
 ]
 
 ROOT_URLCONF = 'openppdb.urls'
@@ -83,7 +86,7 @@ WSGI_APPLICATION = 'openppdb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'databasefiles/db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -139,3 +142,13 @@ STATICFILES_DIRS = (
 
 # ALLOW CORS ORIGIN
 CORS_ALLOW_ALL_ORIGINS = True # CORS to bypass js access
+
+# Database heroku
+DATABASE_URL = os.environ.get('DATABASE_URL')
+
+# Staticfiles storage whitenoise
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# Import Databases
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
