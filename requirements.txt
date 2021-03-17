@@ -10,4 +10,3 @@ python-decouple==3.4
 gunicorn==20.0.4
 whitenoise==5.2.0
 django-cors-headers==3.7.0
-pyinstaller==4.2
