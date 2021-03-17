@@ -8,6 +8,8 @@
 # Aplikasi Pendaftaran Peserta Didik Baru (<b>OpenPPDB</b>)
 Aplikasi <font color="green"><b>Pendaftaran Peserta Didik Baru</b></font> sumber terbuka (<i>Open Source</i>) Berbasis PWA (<i>Progresive Web Application</i>) tersedia <b>`gratis`</b> untuk mempermudah proses <b>PPDB <i>online</i></b>. Unduh gratis rilis aplikasi terbaru [<b>`di sini`</b>](https://github.com/mashanz/openppdb/releases).
 
+### <b>[LIHAT PREVIEW](https://evening-tundra-02558.herokuapp.com/)</b>
+
 ### <b>Kelebihan</b>:
 1. Aplikasi tersedia <b>`gratis`</b> (Open Source).
 2. <b>`Menekan biaya pengembangan`</B> aplikasi yang biasanya jutaan menjadi gratis.
